@@ -9,6 +9,10 @@ public:
     Point2D(double x, double y);
     bool operator==(const Point2D& p);
 
+    double x() const {return _x;}
+    double y() const {return _y;}
+
+
 private:
     double _x, _y;
 };

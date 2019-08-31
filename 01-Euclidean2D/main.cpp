@@ -2,6 +2,10 @@
 #include <cassert>
 
 #include "point2d.h"
+#include "segment2d.h"
+#include "direction2d.h"
+#include "vector2d.h"
+
 
 using namespace std;
 
